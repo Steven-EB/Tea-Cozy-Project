@@ -4,3 +4,13 @@ html {
   color: seashell;
   background-color: black;
 }
+
+a {
+  color: seashell;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
