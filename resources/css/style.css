@@ -1,42 +1,6 @@
-header, main, footer {
-  background-color: black;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-
-.logobox { /* not sure how to match the png file white text 
-to .9 opacity seashell, both of which seem 
-lighter than the spec sheet */
-  opacity: .5;
-  padding: 10px;
-
-}
-
-#logo {
-  max-height: 50px;
-}
-
-nav {
-  color: seashell;
-  opacity: .5;
-  display: flex;
+html {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
-  text-decoration: underline;
-
-}
-
-ul {
-  display: flex;
-  list-style-type: none;
-
-}
-
-li {
-  padding: 10px;
+  color: seashell;
+  background-color: black;
 }
